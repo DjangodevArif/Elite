@@ -1,0 +1,43 @@
+/* material icon */
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons+Outlined");
+
+:root {
+    --mainColor: #dfa974;
+    --grayColor: #707079;
+}
+
+/* Utilities */
+.btn {
+    outline: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+}
+
+.btn:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--mainColor) !important;
+}
+
+/* navbar */
+.fa-bars {
+    color: var(--mainColor);
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link:hover {
+    color: #000;
+    border-bottom: 2px solid var(--mainColor);
+}
