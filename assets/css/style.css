@@ -15,7 +15,7 @@ a:hover {
     text-decoration: none;
 }
 
-.main-color {
+.text-main-color {
     color: var(--mainColor);
 }
 
@@ -120,13 +120,25 @@ select:focus {
     z-index: -5;
 }
 
+.discover-now,
+.read-more {
+    border-bottom: 2px solid var(--mainColor);
+}
+
 .discover-now {
     color: #fff;
-    border-bottom: 2px solid var(--mainColor);
+}
+
+.read-more {
+    color: #000;
 }
 
 .discover-now:hover {
     color: #fff;
+}
+
+.read-more:hover {
+    color: #000;
 }
 
 .hero-area h1 {
@@ -135,6 +147,31 @@ select:focus {
     color: #ffffff;
 }
 
-/* .booking-form {
-    z-index: 5;
-} */
+/* about area */
+.about-image {
+    height: 350px;
+}
+
+/* what we do */
+.wwd-card {
+    border-radius: 0;
+    border: none;
+}
+
+.wwd-card i {
+    color: var(--mainColor);
+    font-size: 50px;
+}
+
+.wwd-card:hover {
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+.wwd-card:hover i {
+    color: #fff;
+}
+
+.wwd-card:hover p {
+    color: #fff !important;
+}
