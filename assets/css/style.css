@@ -41,3 +41,40 @@
     color: #000;
     border-bottom: 2px solid var(--mainColor);
 }
+
+
+.package_container{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+.package{
+    color: #ffff;
+    position: absolute;
+    z-index: 1000;
+    top:79%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.text-white{
+    color: #ffff !important;
+}
+
+.package_container:hover .package{
+    top:30%;
+ }
+
+.package .price{
+    color: #dfa974;
+}
+
+.package .package_table{
+    color: #ffff;
+    font-size:large;
+    line-height: 40px;
+    font-size: large;
+} 
