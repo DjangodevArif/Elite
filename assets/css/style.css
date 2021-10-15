@@ -182,7 +182,7 @@ select:focus {
     position: relative;
     overflow: hidden;
     height: 500px;
-    background-image: url('/assets/images/package-1.jpg');
+    background-image: url('../images/package-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
