@@ -29,10 +29,15 @@ a:hover {
     background-color: var(--mainColor);
 }
 
+.border-main-color {
+    border-color: var(--mainColor);
+}
+
 .bg-gray-color {
     color: #fff;
     background-color: var(--grayColor);
 }
+
 
 .btn {
     outline: none !important;
